@@ -5,6 +5,7 @@ const Parent=()=>{
 
     return(
         <div className="parent">
+            <h1>Parent Component</h1>
             <Child setShowModal={setShowModal} showModal={showModal}/>
         </div>
     )
